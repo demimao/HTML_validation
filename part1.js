@@ -7,7 +7,7 @@ let statistics = {
     rareCars: 2
 };
 
-for (statistic) {
+for (const i in statistic) {
     if (property.charAt(0) == "r" || statistics[property] % 2 == 1) {
         console.log(statistics[property]);
     }
