@@ -34,8 +34,8 @@ jobs:
           VALIDATE_CSS: true
           VALIDATE_JAVASCRIPT_ES: true
           
-      - name: log
-        uses: actions/upload-artifact@v2
+      - name: artifact 
+        uses: actions/upload-artifact@v3
         with:
-          name: log
-          path: log.log
+          name: my-artifact
+          path: reports/artifact.txt
