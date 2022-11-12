@@ -34,8 +34,7 @@ jobs:
           VALIDATE_CSS: true
           VALIDATE_JAVASCRIPT_ES: true
           
-      - name: artifact 
-        uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v3
         with:
           name: my-artifact
           path: ${{ github.workspace }}/reports/artifact.txt
