@@ -13,7 +13,7 @@ jobs:
         VALIDATE_CSS: true
         VALIDATE_HTML: true
         DEFAULT_BRANCH: master
-        DEFAULT_WORKSPACE: /tests/
+        DEFAULT_WORKSPACE: tests/
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 
