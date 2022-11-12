@@ -9,7 +9,11 @@ jobs:
       uses: github/super-linter/slim@v4
       env:
         VALIDATE_ALL_CODEBASE: false
+        VALIDATE_JAVASCRIPT_ESL: true
+        VALIDATE_CSS: true
+        VALIDATE_HTML: true
         DEFAULT_BRANCH: master
+        DEFAULT_WORKSPACE: /tests/
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 
