@@ -33,3 +33,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           VALIDATE_CSS: true
           VALIDATE_JAVASCRIPT_ES: true
+          
+      - name: log
+        uses: actions/upload-artifact@v2
+        with:
+          name: log
+          path: log.log
