@@ -37,7 +37,7 @@ class Person {
  * @param {Person} person
  */
 function printDetails(person) {
-  console.log("I changed the line");
+  console.log("new change");
 }
 
 /**
